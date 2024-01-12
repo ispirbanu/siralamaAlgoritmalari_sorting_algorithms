@@ -165,7 +165,8 @@
     
     ör. 5,7,2,9,6,1,3 elemanlarından oluşan bir dizi olsun. her seferinde ikili olarak hareket edip bu elemanları yer değiştirerek n-1 kadar hareket ettikten sonra bu işleme devam edecek.
     
-    ![Untitled](S%C4%B1ralama%20Algoritmalar%C4%B1%20ec25bacc319b4e1a936472fcb7f0adc5/Untitled.png)
+![Untitled](https://github.com/ispirbanu/siralamaAlgoritmalari_sorting_algorithms/assets/45195137/3d23efe0-24f0-4af0-a7a3-07803429ecae)
+
     
     şeklinde ilerleyerek dizi sıralı hale gelene kadar devam eder.
     
