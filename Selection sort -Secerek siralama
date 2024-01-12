@@ -1,0 +1,21 @@
+sırasız diziyi sıralamak için dizideki tüm elemanları ilk olarak gezerek ardından bulduğu en küçük elemanı dizinin 1. elemanıyla yer değiştirir. ardından 2. elemandan itibaren tekrar bakarak tüm dizi sıralanana kadar devam eder.
+
+En iyi durumda da, ortalama ve en kötü durumda da n^2 olarak çalışır.
+Python Kodu;
+
+def selection_sort(arr):
+    n = len(arr)
+    for i in range(n - 1):
+        min_index = i
+        for j in range(i + 1, n):
+            if arr[j] < arr[min_index]:
+                min_index = j
+        # Min değeri bulduğumuz indeksle swap işlemi
+        arr[i], arr[min_index] = arr[min_index], arr[i]
+
+    return arr
+
+# Örnek kullanım:
+my_array = [64, 25, 12, 22, 11]
+sorted_array = selection_sort(my_array)
+print("Sıralanmış Dizi:", sorted_array)
