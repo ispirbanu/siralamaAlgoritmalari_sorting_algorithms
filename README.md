@@ -1,6 +1,6 @@
 # Sıralama Algoritmaları
 
-- **Selection sort -seçerek sıralama**
+- **Selection sort - Seçerek sıralama**
     
     sırasız diziyi sıralamak için dizideki tüm elemanları ilk olarak gezerek ardından bulduğu en küçük elemanı dizinin 1. elemanıyla yer değiştirir. ardından 2. elemandan itibaren tekrar bakarak tüm dizi sıralanana kadar devam eder.
     
